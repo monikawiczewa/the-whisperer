@@ -1,1 +1,72 @@
-
+[
+  {
+    "time": "14:08",
+    "type": "parameter_change",
+    "subject": "chorus_guitar_left",
+    "parameter": "level",
+    "value": "-1.5 dB"
+  },
+  {
+    "time": "14:13",
+    "type": "parameter_change",
+    "subject": "chorus_guitar_right",
+    "parameter": "level",
+    "value": "-1.0 dB"
+  },
+  {
+    "time": "14:19",
+    "type": "region_playback",
+    "subject": "chorus"
+  },
+  {
+    "time": "14:20",
+    "type": "region_playback",
+    "subject": "chorus"
+  },
+  {
+    "time": "14:21",
+    "type": "region_playback",
+    "subject": "chorus"
+  },
+  {
+    "time": "14:22",
+    "type": "region_playback",
+    "subject": "chorus"
+  },
+  {
+    "time": "14:23",
+    "type": "region_playback",
+    "subject": "chorus"
+  },
+  {
+    "time": "14:24",
+    "type": "region_playback",
+    "subject": "chorus"
+  },
+  {
+    "time": "14:31",
+    "type": "artist_note",
+    "subject": "guitar_solo_take_4",
+    "text": "Take 4 has the right feel. Don't edit it too tightly.",
+    "status": "active"
+  },
+  {
+    "time": "14:46",
+    "type": "parameter_change",
+    "subject": "chorus_vocal",
+    "parameter": "automation",
+    "value": "edited"
+  },
+  {
+    "time": "14:52",
+    "type": "artist_note",
+    "subject": "chorus",
+    "text": "Chorus still feels crowded. Revisit the guitars tomorrow.",
+    "status": "unresolved"
+  },
+  {
+    "time": "15:02",
+    "type": "session_closed",
+    "project": "Glass Horizon"
+  }
+]
