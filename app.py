@@ -77,7 +77,7 @@ def main() -> None:
     # The artist works normally. Whisperer observes the workflow
     # and stores explicit intentions, but should not interrupt merely
     # because repeated listening occurs.
-    session_1 = load_session("session_01.json")
+    session_1 = load_session("demo/session_01.json")
 
     response_1 = agent.process(
         events=session_1,
@@ -93,7 +93,7 @@ def main() -> None:
     #
     # The artist returns later. Persistent memory from Session 1
     # now provides relevant unresolved context.
-    session_2 = load_session("session_02.json")
+    session_2 = load_session("demo/session_02.json")
 
     response_2 = agent.process(
         events=session_2,
