@@ -1,1 +1,12 @@
-
+[
+  {
+    "time": "10:03",
+    "type": "session_opened",
+    "project": "Glass Horizon"
+  },
+  {
+    "time": "10:05",
+    "type": "region_playback",
+    "subject": "chorus"
+  }
+]
