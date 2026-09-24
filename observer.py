@@ -48,6 +48,16 @@ class SessionObserver:
         signals = []
 
         for subject, count in counts.items():
+            # Preserve the playback subject for matching prior artist notes,
+            # even when the playback does not meet the repetition threshold.
+            signals.append(
+                WorkflowSignal(
+                    signal_type="playback",
+                    subject=subject,
+                    strength=1.0,
+                )
+            )
+
             if count >= 4:
                 signals.append(
                     WorkflowSignal(

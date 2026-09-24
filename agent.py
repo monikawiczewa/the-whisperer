@@ -47,14 +47,14 @@ class WhispererAgent:
 
         signals = self.observer.observe(events)
 
-        # Explicit artist intentions are privileged over inferred behaviour.
+        context = self.context_builder.build(signals)
+        decision = self.policy.evaluate(context)
+
+        # Make this session's explicit intentions available to later sessions.
         self._remember_explicit_intentions(
             signals,
             session_id,
         )
-
-        context = self.context_builder.build(signals)
-        decision = self.policy.evaluate(context)
 
         if decision.should_intervene:
             message = self._build_continuity_message(context)

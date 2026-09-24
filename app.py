@@ -2,7 +2,7 @@
 
 Runs two simulated music-production sessions to demonstrate:
 
-observe → remember → reconstruct context → decide → intervene / remain silent
+observe → reconstruct previous context → decide → remember current intentions
 
 No music or creative material is generated.
 """
